@@ -1,0 +1,47 @@
+@import url('./nav.css');
+@import url('./banner.css');
+@import url('./home.css');
+
+:root{
+    --bg-yello: #FFBF0F;
+    --bg-white: #F1F0F7;
+    --bg-gray: #B3B3B3;
+    --bg-black:#333333;
+    --bg-black-strong: #000000;
+    --bg-gray-strong:#808080;
+    --bg-blue: #4B7BB7;
+    --bg-gradient-blue: 0deg, #4B7BB7 0%, transparent 100%;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./../fonts/poppins/Poppins-Regular.ttf');
+}
+
+body{
+    background-color: var(--bg-white);
+}
+
+section{
+    display: block;
+    max-width: 1950px;
+    margin:auto;
+    height:auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    border:none;
+    outline: none;
+    background-color: inherit;
+    cursor:pointer;
+}
+
+.btn-black{
+    background-color: var(--bg-black-strong);
+    color:white;
+    border-radius: 5px;
+}

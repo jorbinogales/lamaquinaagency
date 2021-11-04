@@ -1,0 +1,147 @@
+@import url('./components/check.css');
+
+.bg{
+    position: absolute;
+    overflow: hidden;
+    height: 460px;
+    width:100%;
+}
+
+#second{
+  display: block;
+  background-color: #ffffff;
+  padding: 205px 35px;  
+}
+
+#second .row{
+    margin:auto;
+}
+
+#second img{
+    display: block;
+    margin:auto;
+    max-width: 300px;
+}
+
+#second p{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.background1{
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    max-width: 300px;
+}
+
+.semicircletop{
+    position: absolute;
+    width: 170px;
+    left:-50px;
+    animation: 15s semicircletop ease-in-out infinite;
+}
+
+@keyframes semicircletop{
+    0%{
+        top:0px;
+        transform: rotate(0deg)
+    }
+    50%{
+        top:-100px;
+        right:-300px;
+        transform: rotate(180deg)
+    }
+    100%{
+        top:0px;
+        right:0px;
+        transform: rotate(360deg)
+    }
+}
+
+.semicirclebottom{
+    position: absolute;
+    width: 180px;
+    right:-50px;
+    bottom:0px;
+    animation: 15s semicirclebottom ease-in-out infinite;
+}
+
+@keyframes semicirclebottom{
+    0%{
+        bottom:0px;
+        right:-50px;
+        transform: rotate(0deg)
+    }
+    50%{
+        bottom:-100px;
+        right:0px;
+        transform: rotate(-180deg)
+    }
+    100%{
+        bottom:0px;
+        right:-50px;
+        transform: rotate(-360deg)
+    }
+}
+
+.circle-bg{
+    position: absolute;
+    top:75px;
+    left:20px;
+    width:120px;
+    animation: 15s circle-bg infinite;
+}
+
+@keyframes circle-bg{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.circle-bg-2{
+    position: absolute;
+    bottom:75px;
+    right:0px;
+    width:140px;
+    animation: 15s circle-bg-2 infinite;
+}
+
+@keyframes circle-bg-2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle-ball-top{
+    position: absolute;
+    top:0px;
+    left:295px;
+    width:80px;
+    animation: 15s circle-bg  infinite;
+}
+
+.circle-ball-bottom{
+    position: absolute;
+    bottom:-50px;
+    right:295px;
+    width:150px;
+    animation: 15s circle-bg  infinite;
+}
+
+.background3{
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    max-width: 300px;
+}

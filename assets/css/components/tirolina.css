@@ -1,0 +1,39 @@
+.tirolina{
+    position: absolute;
+    right:100px;
+    bottom:0px;
+    top:0px;
+    width:2px;
+    background-color: var(--bg-yello);
+}
+
+
+.tirolina img{
+    content: '';
+    width:35px;
+    height:35px;
+    position: absolute;
+    top:-10px;
+    right:-31px;
+    border-radius: 50%;
+}
+
+.tirolina .polea{
+    position:absolute;
+    width: 25px;
+    height:100px;
+    background-color: var(--bg-yello);
+    border-radius: 25px;
+    margin-left:15px;
+    margin-top:25px;
+}
+
+.tirolina .cuerda{
+    content: '';
+    position:absolute;
+    width:2px;
+    top:0px;
+    left:29px;
+    height:50px;
+    background-color: var(--bg-yello);
+}

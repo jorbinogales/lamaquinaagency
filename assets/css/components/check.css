@@ -1,0 +1,66 @@
+.button-change{
+    display:block;
+    position:absolute;
+    right:0px;
+    top:50px;
+    width: 150px;
+    height:70px;
+    background-color: var(--bg-blue);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.button-change.active{
+    background-color: var(--bg-yello);
+    animation: buttonChecking .25s ease-in-out forwards;
+}
+
+.button-change .change{
+    position: absolute;
+    left: 15px;
+    top:15px;
+    width: 125px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    opacity: 0.09;
+}
+
+.button-change .check-radius{
+    position: absolute;
+    left:0px;
+    top:15px;
+    left:15px;
+    background-color: var(--bg-yello);
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.button-change.active .check-radius{
+    background-color: var(--bg-blue);
+    animation: checking .25s ease-in-out forwards;
+}
+
+@keyframes checking{
+    from{
+        left: 15px;
+    }
+    to{
+        left:95px;
+    }
+} 
+
+@keyframes buttonChecking{
+    from{
+        opacity: 1;
+        cursor: pointer;
+    }
+    to{
+        cursor: default;
+        opacity: .25;
+    }
+}
