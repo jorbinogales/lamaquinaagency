@@ -8,7 +8,7 @@
 }
 
 
-.tirolina img{
+.tirolina #img-tirolina{
     content: '';
     width:35px;
     height:35px;
@@ -36,4 +36,11 @@
     left:29px;
     height:50px;
     background-color: var(--bg-yello);
+}
+
+#img-bigCircle{
+    position: absolute;
+    max-width:75px;
+    bottom:-35px;
+    right:100px;
 }

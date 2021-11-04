@@ -15,7 +15,6 @@ $('#button').click(function () {
     let curvaYellow = document.getElementById('curva-yellow');
     let curvaBlue = document.getElementById('curva-rellena-blue');
     let semicurva = document.getElementById('semicurva-blue');
-    let background1 = document.getElementById('background1');
     let background2 = document.getElementById('background2');
     let button = document.getElementById('button');
 
@@ -32,7 +31,6 @@ $('#button').click(function () {
     curvaYellow.classList = 'curva-yellow active';
     curvaBlue.classList = 'curva-rellena-blue active';
     semicurva.classList = 'semicurva-blue active';
-    background1.classList = 'background active';
     background2.classList = 'background2 active';
     button.classList = 'button-change active';
 

@@ -1,0 +1,45 @@
+footer{
+    position: relative;
+    z-index: 300;
+    background-color: var(--bg-black-strong);
+    margin-top:50px;
+}
+
+footer .row{
+    position: relative;
+    max-width: 800px;
+    margin:auto !important;
+    left:0;
+    right:0;
+}
+
+footer h5{
+    color: var(--bg-yello);
+    font-family: 'Clarisa';
+    letter-spacing: 2px;
+}
+
+footer p{
+    color: white;
+    font-family: 'Poppins';
+}
+
+footer span{
+    color: white;
+    font-family: 'Poppins';
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:auto;
+    list-style-type: none;
+}
+
+footer ul li{
+    margin:auto;
+}

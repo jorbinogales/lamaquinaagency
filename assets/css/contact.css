@@ -1,0 +1,75 @@
+body{
+    background-color: var(--bg-black-strong) !important;
+}
+
+nav{
+    background-color: var(--bg-white);
+}
+
+nav ul li.active{
+    background-color: var(--bg-black-strong) !important;
+}
+
+nav ul li.active{
+    border-bottom:5px solid var(--bg-black-strong) !important;
+}
+
+#section{
+    max-width: 500px;
+    position: relative;
+    margin-top: 150px;
+}
+
+#section form{
+    position: relative;
+    display: block;
+    background-color: white;
+    padding: 25px 25px 75px 25px;
+    width: 100%;
+    margin:auto;
+    z-index: 50;
+}
+
+#section form .form-group{
+    position: relative;
+    background-color: #E6E7E8;
+    margin:auto;
+    margin-top:15px;
+    width: 90%;
+    border-radius: 25px;
+    padding: 8px 25px;
+}
+
+#section form .form-group input,
+#section form .form-group textarea{
+    width: 100%;
+    font-family: 'Poppins';
+    color: var(--bg-gray-strong);
+    text-transform: uppercase;
+    background-color: inherit;
+    border:none;
+    outline: none;
+    font-weight: bold;
+}
+
+#section img{
+    position: absolute;
+    top:-75px;
+    left:-175px;
+    max-width: 350px;
+}
+
+#section form .btn-yellow{
+    background-color: var(--bg-yello);
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    position: absolute;
+    bottom:-25px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    padding: 15px 10px;
+    width: 100%;
+    max-width: 300px;
+}

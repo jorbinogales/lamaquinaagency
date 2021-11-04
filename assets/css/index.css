@@ -1,6 +1,7 @@
 @import url('./nav.css');
 @import url('./banner.css');
 @import url('./home.css');
+@import url('./footer.css');
 
 :root{
     --bg-yello: #FFBF0F;
@@ -16,6 +17,22 @@
 @font-face {
     font-family: 'Poppins';
     src: url('./../fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins ExtraLight';
+    src: url('./../fonts/poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Clarisa';
+    src: url('./../fonts/clarisa/Clarisa.ttf');
+}
+
+.text-right{
+    position: relative;
+    display: block;
+    text-align: right;
 }
 
 body{
