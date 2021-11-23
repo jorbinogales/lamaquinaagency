@@ -3,15 +3,15 @@ body{
     background-color: var(--bg-black) !important;
 }
 
-nav{
+header nav{
     background-color: var(--bg-white);
 }
 
-nav ul li.active{
+header nav ul li.active{
     background-color: var(--bg-black) !important;
 }
 
-nav ul li.active{
+header nav ul li.active{
     border-bottom:5px solid var(--bg-black) !important;
 }
 
@@ -20,20 +20,60 @@ nav ul li.active{
     margin:auto;
 }
 
+.target h2{
+    font-family: 'Poppins';
+    color: white;
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-weight: bold;
+}
+
 .target{
     position: relative;
     display: block;
     max-width: 320px;
+    max-height: 435px;
     margin:auto;
-   
+}
+
+.target .photo{
+    opacity: 1;
+    transition: all .25s ease-in-out;
+    min-height: 435px;
+}
+
+.target{
+    background-position: center;
+    background-size: cover;
+}
+
+.target .text .copy-hover{
+    display: none;
+    opacity: 0;
+}
+
+.target:hover .text p{
+    display: none;
+    opacity: 0;
+}
+
+.target:hover .text .copy-hover{
+    display: block;
+    opacity: 1;
+}
+
+.target:hover .photo{
+    opacity: 0;
+    transition: all .5s ease-in-out;
 }
 
 .target .bg{
     position: absolute;
-    bottom:0;
+    bottom:-1px;
     left:0px;
     width: 100%;
-    height:70%;
+    height:60%;
     background: linear-gradient(0deg, black 0%, transparent 100%);
 }
 
@@ -69,7 +109,8 @@ nav ul li.active{
     font-size: 35px;
 }
 
-.target .text p{
+.target .text p,
+.target .text strong{
     color: white;
     font-family: 'poppins';
     font-weight: bold;

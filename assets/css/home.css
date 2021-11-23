@@ -164,3 +164,25 @@
     right:0px;
     max-width: 300px;
 }
+
+@media only screen and (max-width: 968px){
+
+    #second .icon{
+        display: block;
+        margin:auto;
+        max-width: 90px;
+    }
+
+    #second h5{
+        font-family: 'Poppins ExtraLight';
+        font-size: 15px;
+    }
+
+    #second button{
+        font-size: 15px;
+    }
+
+    #second p{
+        font-size: 15px;
+    }
+}

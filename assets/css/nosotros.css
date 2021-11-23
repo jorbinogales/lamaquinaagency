@@ -113,3 +113,47 @@
     max-width: 200px;
     max-height: 35px;
 }
+
+@media only screen and (max-width: 968px){
+   
+    .target .box{
+        max-width: 100px;
+        left:-75px;
+        top:25px;
+    }
+
+    .target{
+        margin-top:50px;
+    }
+
+    #section .content{
+        margin-top:0px;
+    }
+
+    .target .title{
+        margin-left:50px;
+        max-width: 150px;
+    }
+
+    .target .body .icon{
+        position: absolute;
+        right:-25px;
+        top:-25px;
+        width:100%;
+        max-width: 75px;
+        z-index: 50;
+    }
+
+    .target .body .text p{
+        display: none;
+    }
+
+    .target .body .text{
+        width: 100%;
+    }
+
+    .target .body .text button{
+       left:0;
+       right:0;
+    }
+}

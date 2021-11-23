@@ -120,3 +120,14 @@
     margin-left:auto;
 }
 
+
+@media only screen and (max-width: 968px){
+    #section .content .title{
+        max-width: 200px;
+    }
+    
+    .box-yellow{
+        max-width: 150px;
+    }
+    
+}
